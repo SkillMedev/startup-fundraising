@@ -1,16 +1,17 @@
 # Startup Fundraising
 
-**For founders raising a round: pitch, narrative, market, investor updates, and term sheets.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For founders raising a round: pitch, narrative, market, investor updates, and term sheets.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-startup-fundraising).
 
 Reach for this when you're a founder running a fundraise and want every artifact investors actually judge you on. Land the cold intro and tell a fundraising story that earns the meeting, size the market defensibly, pressure-test your Series A readiness and data room, and decode the term sheet before you sign - then keep investors close with crisp monthly updates. The end-to-end founder playbook from first outreach to closed round.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/startup-fundraising](https://skillme.dev/pack/startup-fundraising) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/startup-fundraising?utm_source=github&utm_medium=readme&utm_campaign=pack-startup-fundraising) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add fundraising-narrative market-sizing fpa-model vc-pitch-email series-a-readiness term-sheet-explainer investor-update-writer --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/startup-fundraising`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -25,4 +26,4 @@ Reach for this when you're a founder running a fundraise and want every artifact
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-startup-fundraising).
